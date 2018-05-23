@@ -9,7 +9,7 @@ var clevel = 1
 var cstage = 1
 var remap = 0
 var score = 0
-mapboxgl.accessToken = 'pk.eyJ1IjoiamVmZmFsbGVuIiwiYSI6InJOdUR0a1kifQ.fTlTX02Ln0lwgaY4vkubSQ';
+mapboxgl.accessToken = 'pk.eyJ1IjoiYWxiZXJ0b212ODMiLCJhIjoiY2lnaTB2NWxrMHN4N3cza250Z2dlZzN2aCJ9.FSyG9G3Gd1ifidgyvhxpQg';
 
 
 // function for showing the map given a level and stage
@@ -94,7 +94,7 @@ function showMap(level, stage) {
 
   var map = new mapboxgl.Map({
       container: 'map', // container id
-      style: 'mapbox://styles/jeffallen/cj8rwyt7obvqq2sr8ygoi9dh2', // stylesheet location
+      style: 'mapbox://styles/albertomv83/cjhit8tlb00t32rqbutekqose', // stylesheet location
       center: [cx,cy], // starting position [lng, lat]
       zoom: 11.5, // starting zoom
       maxZoom: 16,
